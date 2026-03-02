@@ -21,7 +21,7 @@
     /* Additional layout properties */
     display: flex;
     flex-wrap: wrap;
-      gap: 10 px ;
+    gap: 20 px ;
 }
 .error {
     color:darkred;
