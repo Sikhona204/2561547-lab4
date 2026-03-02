@@ -18,6 +18,8 @@
 .border-grid {
     display: grid; /* or display: flex */
     /* Additional layout properties */
+    display: flex;
+    flex-wrap: wrap;
 }
 .error {
     color:darkred;
