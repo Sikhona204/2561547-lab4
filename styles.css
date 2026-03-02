@@ -19,10 +19,12 @@
 .border-grid {
     display: grid; /* or display: flex */
     /* Additional layout properties */
-    background-color: aqua;
+    gap: 20 px;
+    background-color:aliceblue;
 }
 .error {
     color:darkred;
+    font-size: medium;
     /* Additional styling */
 }
 .hidden {
