@@ -10,7 +10,7 @@ const errorMessage = document.getElementById('error-message');
 async function searchCountry(countryName) {
     if (!countryName) return;
 
-    
+
     countryInfo.innerHTML = '';
     borderingCountries.innerHTML = '';
     errorMessage.textContent = '';
@@ -18,7 +18,7 @@ async function searchCountry(countryName) {
 
     try {
         
-        const response = await fetch(`https://restcountries.com/v3.1/name/${countryName}? FullText=true`);
+        const response = await fetch(`https://restcountries.com/v3.1/name/${countryName}?FullText=true`);
         if (!response.ok) throw new Error('Country not found');
         const data = await response.json();
         const country = data[0];
