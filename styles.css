@@ -19,9 +19,7 @@
 .border-grid {
     display: grid; /* or display: flex */
     /* Additional layout properties */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20 px ;
+    background-color: aqua;
 }
 .error {
     color:darkred;
