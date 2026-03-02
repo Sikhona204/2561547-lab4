@@ -1,6 +1,8 @@
 .spinner {
     /* Your styling */
     animation: spin 1s linear infinite; /* Required */
+    width: 60 px;
+    height: 60 px;
 }
 
 @keyframes spin {
@@ -9,6 +11,8 @@
 }
 
 .country-card{
+    background-color: blue;
+    padding: 30 px ;
 }
 
 .border-grid {
@@ -16,7 +20,7 @@
     /* Additional layout properties */
 }
 .error {
-    color: /* error color */;
+    color:darkred;
     /* Additional styling */
 }
 .hidden {
