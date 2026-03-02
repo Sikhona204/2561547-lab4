@@ -13,7 +13,7 @@
 .country-card{
     background-color:azure;
     padding: 30 px ;
-    gap: 10 px ;
+  
 }
 
 .border-grid {
@@ -21,6 +21,7 @@
     /* Additional layout properties */
     display: flex;
     flex-wrap: wrap;
+      gap: 10 px ;
 }
 .error {
     color:darkred;
